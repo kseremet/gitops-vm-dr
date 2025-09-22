@@ -4,6 +4,7 @@ metadata:
   annotations: {}
   labels:
     app: centos-stream9-salmon-clownfish-82
+    dr.demojam.com/source-state: halted
     kubevirt.io/dynamic-credentials-support: 'true'
     vm.kubevirt.io/template: centos-stream9-server-small
     vm.kubevirt.io/template.namespace: openshift
