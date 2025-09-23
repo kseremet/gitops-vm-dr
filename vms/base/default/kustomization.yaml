@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - pv-pvc-40677c76-6667-41f0-93bb-2079a8bebba2.yaml
+  - pv-pvc-1d9def3e-f389-49a5-b383-81ab30e11634.yaml
+  - pvc-dv-centos-stream9-salmon-clownfish-82-disk-jade-flyingfish-22-r6s782.yaml
+  - pvc-centos-stream9-salmon-clownfish-82.yaml
+  - vm-centos-stream9-salmon-clownfish-82.yaml
