@@ -7,3 +7,9 @@ patches:
     target:
       kind: VirtualMachine
       group: kubevirt.io
+  - patch: |-
+      - op: replace
+        path: /metadata/namespace
+        value: default-dr
+    target:
+      namespace: default
