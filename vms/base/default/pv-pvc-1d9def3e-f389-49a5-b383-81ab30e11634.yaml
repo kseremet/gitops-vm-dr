@@ -4,6 +4,8 @@ metadata:
   annotations:
     volume.kubernetes.io/provisioner-deletion-secret-name: rook-csi-rbd-provisioner
     volume.kubernetes.io/provisioner-deletion-secret-namespace: openshift-storage
+  labels:
+    app.kubernetes.io/instance: cls2-vm-dr
   name: pvc-1d9def3e-f389-49a5-b383-81ab30e11634
 spec:
   accessModes:
